@@ -1,4 +1,4 @@
-A mod that changes the dash ability to have no cooldown.
+A mod that changes the dash ability to have no cooldown and increases the distance traveled from each dash.
 
 Due to the way the game was initially programmed, holding the dash button down will result in an infinite chain of dashes until the button is released.
 
