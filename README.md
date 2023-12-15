@@ -1,2 +1,2 @@
 # bopl
-A mod for the game Bopl Battle by Johan Gronvall
+A collection of mods for the game Bopl Battle by Johan Gronvall
