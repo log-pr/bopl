@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using HiddenAbilities.Patches;
+using HiddenAbilitiesMod.Patches;
 
 namespace HiddenAbilities
 {
@@ -14,7 +14,7 @@ namespace HiddenAbilities
     {
         private const string ModGUID = "fawd.HiddenAbilities";
         private const string ModName = "Hidden Abilities";
-        private const string ModVersion = "0.0.1";
+        private const string ModVersion = "1.0.0";
 
         private readonly Harmony harmony = new Harmony(ModGUID);
 
@@ -33,8 +33,7 @@ namespace HiddenAbilities
             mls.LogInfo("The hidden ability mod has awoken.");
 
             harmony.PatchAll(typeof(HiddenAbilitiesBase));
-            harmony.PatchAll(typeof(HiddenSpawnPatch));
-            //harmony.PatchAll(typeof(HiddenPickupPatch));
+            harmony.PatchAll(typeof(SlimeControllerPatch));
         }
     }
 }
