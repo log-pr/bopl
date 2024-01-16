@@ -14,7 +14,7 @@ namespace HiddenAbilities
     {
         private const string ModGUID = "fawd.HiddenAbilities";
         private const string ModName = "Hidden Abilities";
-        private const string ModVersion = "1.0.0";
+        private const string ModVersion = "1.1.0";
 
         private readonly Harmony harmony = new Harmony(ModGUID);
 
