@@ -15,8 +15,8 @@ namespace HiddenAbilitiesMod.Patches
         [HarmonyPrefix]
         static void Patch(ref AbilityReadyIndicator[] ___AbilityReadyIndicators, ref NamedSpriteList ___abilityIconsFull, ref int ___playerNumber)
         {
-            //if abilityready indicators exists and the player is not a local player
-            if (___AbilityReadyIndicators != null && !(PlayerHandler.Get().GetPlayer(___playerNumber).IsLocalPlayer))
+            //if abilityready indicators exists
+            if (___AbilityReadyIndicators != null)
             {
                 foreach (AbilityReadyIndicator ari in ___AbilityReadyIndicators)
                 {
