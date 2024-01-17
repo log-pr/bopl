@@ -1,3 +1,10 @@
+version 1.2.0
+
+mod now creates a config file on first run that lets you change if it applies to local players or not
+0: does not apply to local players
+1: does apply to local players
+
+________________________________________________________________________________________________________________________________________________________________________________
 version 1.1.0
 
 mod now only applies to non-local players
